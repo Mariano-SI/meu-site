@@ -21,6 +21,7 @@ export const FormationCardStyled = styled.div`
         line-height: 1.4;
         margin-bottom: 40px;
         position: relative;
+        color: #FFF;
         flex: 1;
     }
 
@@ -37,7 +38,6 @@ export const FormationCardStyled = styled.div`
     .formation-institution{
         font-size: 1.125rem;
         color: #A3A3A3;
-        
     }
 
 
