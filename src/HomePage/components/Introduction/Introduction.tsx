@@ -5,7 +5,7 @@ type Props = {}
 
 function Introduction({}: Props) {
   return (
-    <IntroductionStyled className='introdution'>
+    <IntroductionStyled className='introdution contentArea'>
         <img src="/src/assets/eu.jpg" alt="" className='main-picture image'/>
         <div>
           <h1 className='title'>Mariano Silva Desenvolvedor </h1>

@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar/>
-        <div className='contentArea'>
+        <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
           </Routes>

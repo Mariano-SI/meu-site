@@ -39,7 +39,7 @@ function Experience() {
     
   ]  
   return (
-    <ExperienceStyled aria-label='Experiência' id='experience'>
+    <ExperienceStyled aria-label='Experiência' id='experience' className='contentArea'>
         <h2 className='subtitle'>Experiência</h2>
         <div>
             <p className='experience-text'>

@@ -36,7 +36,7 @@ export const IntroductionStyled = styled.main`
     }
 
     .typing-animation{
-        animation: blinkCursor 500ms steps(40) infinite normal, typing 5s steps(40) infinite normal both;
+        animation: blinkCursor 500ms steps(20) infinite normal, typing 5s steps(40) infinite normal both;
     }
 
     @keyframes typing {
