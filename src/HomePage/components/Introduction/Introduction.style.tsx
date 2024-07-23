@@ -75,12 +75,20 @@ export const IntroductionStyled = styled.main`
         .title, .fullstack{
             font-size: 3rem;
         }   
+        .image{
+            width: 250px;
+            height: 250px;
+        }
     }
 
     @media(max-width: 800px){
         grid-template-columns: 1fr 1fr;
         gap: 40px;
         font-size: 2rem;
+        .image{
+            width: 200px;
+            height: 200px;
+        }
 
         .title::before{
             width: 40px;
@@ -97,10 +105,17 @@ export const IntroductionStyled = styled.main`
             width: 270px;
         }
     }
+    @media(max-width: 600px){
+        .image{
+            width: 150px;
+            height: 150px;
+        }
+    }
 
     @media(max-width: 500px){
         grid-template-columns: 1fr;
-        .main-picture{
+        
+        .image{
             display: none;
         }
     }
