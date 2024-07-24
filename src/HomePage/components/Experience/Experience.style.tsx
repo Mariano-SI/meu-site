@@ -8,7 +8,7 @@ export const ExperienceStyled = styled.section`
     gap: 100px;
 
     .subtitle{
-        color: #E0E0E0;
+        color: var(--subtitle-color);
     }
 
     .experience-text{
@@ -16,10 +16,10 @@ export const ExperienceStyled = styled.section`
         line-height: 1.33;
         max-width: 50ch;
         margin-bottom: 60px;
-        color: #525252;
+        color: var(--secondary-texts-color);
     }
     .experience-text strong{
-        color: #141414;
+        color: var(--main-texts-color);
     }
 
     @media (max-width: 800px){
@@ -27,7 +27,7 @@ export const ExperienceStyled = styled.section`
         gap: 40px;
 
         .subtitle{
-            color: #141414;
+            color: var(--main-texts-color);
         }
 
         .experience-text{

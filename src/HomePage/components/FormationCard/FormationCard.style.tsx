@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FormationCardStyled = styled.div`
-    background-color: #000;
+    background-color: var(--subtitle-color);
     padding: 20px;
     border-radius: 4px;
     flex: 1;
@@ -9,7 +9,7 @@ export const FormationCardStyled = styled.div`
     flex-direction: column;
 
     .formation-level{
-        color: #A3A3A3;
+        color: var(--secondary-texts-color);
         font-size: large.875rem;
         text-transform: uppercase;
         margin-bottom: 10px;
@@ -21,7 +21,7 @@ export const FormationCardStyled = styled.div`
         line-height: 1.4;
         margin-bottom: 40px;
         position: relative;
-        color: #FFF;
+        color: var(--main-texts-color);
         flex: 1;
     }
 
@@ -37,7 +37,7 @@ export const FormationCardStyled = styled.div`
 
     .formation-institution{
         font-size: 1.125rem;
-        color: #A3A3A3;
+        color: var(--secondary-texts-color);
     }
 
 

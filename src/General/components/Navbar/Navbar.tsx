@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavbarStyled } from './Navbar.style'
+import DarkMode from '../DarkMode/DarkMode'
+
 
 
 const Navbar = () => {
@@ -12,6 +14,7 @@ const Navbar = () => {
             <li><a href="#formation">Formação</a></li>
             <li><a href="#contact">Contato</a></li>
           </ul>
+          <DarkMode/>
         </nav>
     </NavbarStyled>
   )

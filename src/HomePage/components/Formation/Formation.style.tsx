@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FormationStyled = styled.section`
-    background-color: #141414 ;
+    background-color: var(--secondary-background-color);
 
     .subtitle{
-        color: #000;
+        color: var(--subtitle-color);
         max-width: 4ch;
     }
 
@@ -13,10 +13,10 @@ export const FormationStyled = styled.section`
         line-height: 1.33;
         max-width: 40ch;
         margin-bottom: 60px;
-        color: #A3A3A3;
+        color: var(--secondary-texts-color);
     }
     .formation-text strong{
-        color: white;
+        color: var(--main-texts-color);
     }
 
     .formation-cards-container{
@@ -55,7 +55,7 @@ export const FormationStyled = styled.section`
         }
 
         .subtitle{
-            color: #FFF;
+            color: var(--main-texts-color);
             max-width: initial !important;
         }
 

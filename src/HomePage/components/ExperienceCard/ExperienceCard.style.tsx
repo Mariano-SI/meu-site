@@ -5,7 +5,7 @@ export const ExperienceCardStyled = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 10px 20px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--background-cards);
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
@@ -25,7 +25,7 @@ export const ExperienceCardStyled = styled.div`
         position: absolute;
         top: 22px;
         left: -140px;
-        color: #525252;
+        color: var(--secondary-texts-color);
         font-size: large.875rem;
         text-align: right;
         width: 130px;
@@ -35,11 +35,12 @@ export const ExperienceCardStyled = styled.div`
         font-size: 1.125rem;
         line-height: 1.1;
         font-weight: bold;
+        color: var(--main-texts-color);
     }
 
     .job-description{
         font-size: large.875rem;
-        color: #525252;
+        color: var(--secondary-texts-color);
         line-height: 1.4;
     }
 
@@ -55,7 +56,8 @@ export const ExperienceCardStyled = styled.div`
         line-height: 1.4;
         border-radius: 4px;
         display:inline-block;
-        background-color: #FFF;
+        background-color: var(--background-color);
+        color: var(--secondary-texts-color);
         padding: 5px 10px;
     }
 

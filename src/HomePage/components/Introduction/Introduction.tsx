@@ -1,9 +1,9 @@
 import React from 'react'
 import { IntroductionStyled } from './Introduction.style'
 
-type Props = {}
 
-function Introduction({}: Props) {
+
+function Introduction() {
   return (
     <IntroductionStyled className='introdution contentArea'>
         <img src="/src/assets/eu.jpg" alt="" className='main-picture image'/>

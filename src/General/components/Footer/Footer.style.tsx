@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-    background: #000;
 
     .container{
         padding: 120px 20px 60px 20px;
@@ -14,7 +13,7 @@ export const FooterStyled = styled.footer`
     .footer-text{
         font-size: 1.5rem;
         line-height: 1.33;
-        color: #CCC;
+        color: var(--secondary-texts-color);
     }
 
     .footer-contact li{
@@ -32,7 +31,7 @@ export const FooterStyled = styled.footer`
         color: var(--primary-color);
     }
     .footer-contact li a{
-        color: #FFF;
+        color: var(--main-texts-color);
         font-weight: bold;
         font-size: 2rem;
         text-decoration: none;

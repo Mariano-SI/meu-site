@@ -24,7 +24,7 @@ export const IntroductionStyled = styled.main`
         font-size: 4.5rem;
         line-height: 1.125;
         margin-bottom: 30px;
-        border-right: 1px solid #141414;
+        border-right: 1px solid var(--main-texts-color);
         white-space: nowrap;
         overflow: hidden;
     }
@@ -32,7 +32,7 @@ export const IntroductionStyled = styled.main`
     p{
         font-size: 1.5rem;
         line-height: 1.3;
-        color: #525252;
+        color: var(--secondary-texts-color);
     }
 
     .typing-animation{
@@ -50,7 +50,7 @@ export const IntroductionStyled = styled.main`
 
     @keyframes blinkCursor{
         from{
-            border-right-color: #141414;
+            border-right-color: var(--main-texts-color);
         }
         to{
             border-right-color: transparent;

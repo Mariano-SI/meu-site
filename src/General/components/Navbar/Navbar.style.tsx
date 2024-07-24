@@ -28,7 +28,7 @@ export const NavbarStyled = styled.header`
         display: block;
         padding: 20px 20px;
         text-decoration: none;
-        color: #141414;
+        color: var(--main-texts-color);
         position: relative;
     }
 
@@ -57,8 +57,12 @@ export const NavbarStyled = styled.header`
         padding: 20px;
 
         .header-menu a{
-            background-color: #F5F5F5;
+            background-color: var(--secondary-background-color);
             border-radius: 4px;
+        }
+        .header-menu a:hover::before {
+            left: 0;
+            width: 100%;
         }
     }
 `
