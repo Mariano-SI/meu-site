@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavbarStyled } from './Navbar.style'
 
-type Props = {}
 
 const Navbar = () => {
   return (

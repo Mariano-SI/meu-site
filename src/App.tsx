@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './General/components/Navbar/Navbar'
 import HomePage from './HomePage/pages/HomePage'
 import Footer from './General/components/Footer/Footer'
+import ScrollToTopButton from './General/components/ScrollToTopButton/ScrollToTopButton'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           </Routes>
         </div>
         <Footer/>
+        <ScrollToTopButton/>
       </BrowserRouter>
     </>
   )
