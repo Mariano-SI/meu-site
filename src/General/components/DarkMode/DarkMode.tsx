@@ -1,35 +1,41 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { DarkModeButtonStyled } from './DarkModeButton.style';
 /* import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode'; */
+import DarkModeIcon from '@mui/icons-material/DarkMode';  */
 
 
 
 function DarkMode() {
 
+    const [isDark, setIsDark] = React.useState(() => localStorage.getItem('theme') === 'dark' ? true : false);
+
     function setDarkMode(){
         document.querySelector('body')?.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
     }
     function setLighthMode(){
         document.querySelector('body')?.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
     }
 
-    function toggleTheme(e: React.ChangeEvent<HTMLInputElement>): void {
-        if (e.target.checked) setDarkMode();
-        else setLighthMode();        
-    }
+    useEffect(() =>{
+        if(isDark) setDarkMode();
+        else setLighthMode();
+    }, [isDark])
 
     return (
-        <div>
+        <DarkModeButtonStyled >
             <input 
-                id='dark-mode'
+                id='dark-mode-toggle'
                 type="checkbox"
-                onChange={toggleTheme}
+                className='dark-mode-toggle'
+                checked={isDark}
+                onChange={(e) => setIsDark(e.target.checked)}
             />
-            {/* <label htmlFor='dark-mode'>
-                <LightModeIcon/>
-                <DarkModeIcon/>
-            </label> */}
-        </div>
+            <label htmlFor="dark-mode-toggle">
+               
+            </label>
+        </DarkModeButtonStyled>
     )
 }
 
