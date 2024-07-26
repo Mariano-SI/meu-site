@@ -11,15 +11,11 @@ import SchoolIcon from '@mui/icons-material/School';
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = React.useState(false);
 
-  const mobileMenuRef = useRef<HTMLDivElement>(null);
-  const menuButtonRef = useRef<HTMLDivElement>(null);
-
   const handleClickOutside = (event) => {
     if (
-      mobileMenuRef.current && 
-      !mobileMenuRef.current.contains(event.target) &&
-      menuButtonRef.current &&
-      !menuButtonRef.current.contains(event.target)
+      !event.target.closest('.mobile-menu') &&
+      !event.target.closest('.menu-mobile-button') &&
+      !event.target.closest('.dark-mode-button') 
     ) {
       setShowMobileMenu(false);
     }
@@ -46,14 +42,12 @@ const Navbar = () => {
         </nav>
         <div 
           className='menu-mobile-button'
-          ref={menuButtonRef}
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
           <MenuIcon/>
         </div>
         <div 
           className={`mobile-menu ${showMobileMenu && 'open'}`}
-          ref={mobileMenuRef}
         >
           <ul className='header-items menu-mobile-navigation'>
             <li>

@@ -105,19 +105,15 @@ export const IntroductionStyled = styled.main`
             width: 270px;
         }
     }
-    @media(max-width: 600px){
+    @media(max-width: 620px){
         .image{
-            width: 150px;
-            height: 150px;
+            display: none;
         }
     }
 
     @media(max-width: 500px){
         grid-template-columns: 1fr;
         
-        .image{
-            display: none;
-        }
     }
     }
 `
