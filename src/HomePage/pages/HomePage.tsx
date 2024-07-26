@@ -1,5 +1,5 @@
 import React from 'react'
-import Introduction from '../../../public/static/images/Introduction'
+import Introduction from '../components/Introduction/Introduction'
 import Experience from '../components/Experience/Experience'
 import Formation from '../components/Formation/Formation'
 

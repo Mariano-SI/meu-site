@@ -23,5 +23,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "public/static/images/Introduction.tsx"]
+  "include": ["src", "src/HomePage/components/Introduction/Introduction.tsx"]
 }

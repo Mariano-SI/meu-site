@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const IntroductionStyled = styled.main`
     padding: 40px 20px;
     display: grid;
@@ -62,7 +63,7 @@ export const IntroductionStyled = styled.main`
         display: block;
         width: 130px;
         height: 100px;
-        background: url('/public/static/images/detalhe.svg') no-repeat center;
+        background: url("../../../../public/static/images/detalhe.svg") no-repeat center;
         position: absolute;
         top: -15px;
         left: -40px;
