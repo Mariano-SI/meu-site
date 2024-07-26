@@ -41,7 +41,7 @@ export const FormationStyled = styled.section`
             display: block;
             width: 130px;
             height: 100px;
-            background: url('/src/assets/detalhe.svg') no-repeat center;
+            background: url('/public/static/images/detalhe.svg') no-repeat center;
             position: absolute;
             bottom: -50px;
             left: 20px;

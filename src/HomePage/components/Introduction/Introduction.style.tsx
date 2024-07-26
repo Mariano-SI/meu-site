@@ -62,7 +62,7 @@ export const IntroductionStyled = styled.main`
         display: block;
         width: 130px;
         height: 100px;
-        background: url('/src/assets/detalhe.svg') no-repeat center;
+        background: url('/public/static/images/detalhe.svg') no-repeat center;
         position: absolute;
         top: -15px;
         left: -40px;
