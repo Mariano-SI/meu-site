@@ -45,7 +45,7 @@ function Experience() {
             <p className='experience-text'>
                 <strong>Desenvolvedor FullStack</strong> e graduando em <strong>Sistemas de Informação na Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM</strong>. Atuo no mercado de desenvolvimento desde o início 2022 quando comecei minha carreira na Dti Digital, uma das maiores consultorias de T.I do país. 
             </p>
-            {experiences.map((experience, index) => (
+            {experiences.map((experience) => (
                 <ExperienceCard experience={experience} />
             ))}
         </div>

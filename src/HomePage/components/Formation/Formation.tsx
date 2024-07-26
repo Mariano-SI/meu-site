@@ -2,7 +2,6 @@ import React from 'react'
 import { FormationStyled } from './Formation.style'
 import FormationCard from '../FormationCard/FormationCard'
 import { IFormation } from '../../interfaces/Formation'
-import { Certification } from '../../interfaces/Certification';
 
 function Formation() {
 
