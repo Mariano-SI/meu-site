@@ -13,8 +13,8 @@ const Navbar = () => {
             <li><a href="#experience">Experiência</a></li>
             <li><a href="#formation">Formação</a></li>
             <li><a href="#contact">Contato</a></li>
+            <DarkMode/>
           </ul>
-          <DarkMode/>
         </nav>
     </NavbarStyled>
   )

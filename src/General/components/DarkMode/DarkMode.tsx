@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { DarkModeButtonStyled } from './DarkModeButton.style';
-/* import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';  */
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode'; 
 
 
 
@@ -33,7 +33,10 @@ function DarkMode() {
                 onChange={(e) => setIsDark(e.target.checked)}
             />
             <label htmlFor="dark-mode-toggle">
-               
+                <div className='dark-mode-icons-container'>
+                    {isDark ? <DarkModeIcon className='dark-mode-icon'/> : <LightModeIcon className='dark-mode-icon'/>}
+                </div>
+
             </label>
         </DarkModeButtonStyled>
     )
