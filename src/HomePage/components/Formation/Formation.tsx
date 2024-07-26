@@ -2,6 +2,7 @@ import React from 'react'
 import { FormationStyled } from './Formation.style'
 import FormationCard from '../FormationCard/FormationCard'
 import { IFormation } from '../../interfaces/Formation'
+import detalhe from "../../../../public/static/images/detalhe.svg"
 
 function Formation() {
 
@@ -34,7 +35,7 @@ function Formation() {
                         }                   
                     </div>
                 </div>
-
+            <img src={detalhe} alt="" className='detail' />
             </div>
         </FormationStyled>
   )

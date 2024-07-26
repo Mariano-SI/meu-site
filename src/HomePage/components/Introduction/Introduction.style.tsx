@@ -58,12 +58,15 @@ export const IntroductionStyled = styled.main`
         }
     }
 
-    .title::before{
+    .title-container{
+        position: relative;
+    }
+
+    .detalhe{
         content: '';
         display: block;
         width: 130px;
         height: 100px;
-        background: url("../../../../public/static/images/detalhe.svg") no-repeat center;
         position: absolute;
         top: -15px;
         left: -40px;
@@ -91,11 +94,10 @@ export const IntroductionStyled = styled.main`
             height: 200px;
         }
 
-        .title::before{
-            width: 40px;
-            height: 10px;
-            top: -10px;
-            left: 0px;
+        .detalhe{
+            width: 60px;
+            top: -30px;
+            left: -12px;
         }
 
         @keyframes typing {
