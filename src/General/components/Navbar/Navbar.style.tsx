@@ -64,7 +64,7 @@ export const NavbarStyled = styled.header`
         right: 0;
         width: 300px; 
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); /* cor de fundo semi-transparente */
+        background-color: var(--background-color); /* cor de fundo semi-transparente */
         backdrop-filter: blur(10px);
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
