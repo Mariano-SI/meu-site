@@ -10,16 +10,23 @@ function Experience() {
   const experiences: ExperienceDescription[] = [
     {
         companyName: 'Dti Digital',
-        role: 'Desenvolvedor Líder Iterino',
-        jobDescription: 'Comando a equipe que desenvolve uma plataforma interna chamada Round. Minha atuação no projeto envolve o desenvolvimento de features, servir como referência técnica para o resto da equipe, realizar code-reviews e lançamento de releases semanais.',
-        date: '06/2024 - Atual',
-        skills: ['React', 'Node.js', 'TypeScript', 'SQL', 'Docker', 'Git', 'Jest', 'Cypress']
+        role: 'Desenvolvedor Líder',
+        jobDescription: 'Atualmente atuo no comando da equipe que desenvolve uma plataforma interna chamada Round. Minha atuação no projeto envolve o desenvolvimento de features, servir como referência técnica para o resto da equipe, realizar code-reviews e lançamento de releases semanais.',
+        date: '07/2024 - Atual',
+        skills: ['CI/CD', 'React', 'Node.js', 'Infraestrutura', 'Cloud computing', 'Docker', 'Redis', 'Liderança de equipe', 'Planejamento de features',  'TypeScript', 'SQL', 'Docker', 'Git', 'Jest', 'Cypress']
     },
     {
         companyName: 'Dti Digital',
-        role: 'Estagiário de desenvolvimento',
+        role: 'Desenvolvedor FullStack',
+        date: '04/2024 - 07/2024',
+        jobDescription: 'Atuei principalmente no desenvolvimento de software utilizando as tecnologias Node e React.js juntamente ao Typescript. Além disso, em certos momentos atuei como desenvolvedor líder iterino como preparação para assumir o cargo de líder da equipe no futuro.',
+        skills:['React', 'Node.js', 'TypeScript', 'SQL', 'Docker', 'Git', 'Jest', 'Cypress']
+    },
+    {
+        companyName: 'Dti Digital',
+        role: 'Estagiário de desenvolvimento fullstack',
         jobDescription: 'Atuei principalmente no desenvolvimento de software utilizando as tecnologias Node e React.js juntamente ao Typescript. Além disso, auxiliva minhas lideranças no planejamento de novas features do projeto e também, quando necessário, contribia com a equipe de produto nos processos de discovery que aconteciam frequentemente em meu contexto, algo bastante positivo pois me incentivava a sempre estar aprendendo novas coisas e assumir novas responsabilidades dentro da equipe.',
-        date: '09/2022 - 06/2024',
+        date: '09/2022 - 05/2024',
         skills: ['React', 'Node.js', 'TypeScript', 'SQL', 'Docker', 'Git', 'Jest', 'Cypress']
     },
     {
