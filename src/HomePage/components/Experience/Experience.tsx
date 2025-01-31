@@ -9,10 +9,17 @@ function Experience() {
 
   const experiences: ExperienceDescription[] = [
     {
+        companyName: 'ilegra',
+        role: 'Desenvolvedor Pleno',
+        jobDescription: 'Alocado no cliente PagoNxt - a Santander company.',
+        date: '01/2025 - Atual',
+        skills: ['Node.js', 'Azure', 'Docker', 'BackstageIO']
+    },
+    {
         companyName: 'Dti Digital',
         role: 'Desenvolvedor Líder',
         jobDescription: 'Atualmente atuo no comando da equipe que desenvolve uma plataforma interna chamada Round. Minha atuação no projeto envolve o desenvolvimento de features, servir como referência técnica para o resto da equipe, realizar code-reviews e lançamento de releases semanais.',
-        date: '07/2024 - Atual',
+        date: '07/2024 - 01/2025',
         skills: ['CI/CD', 'React', 'Node.js', 'Infraestrutura', 'Cloud computing', 'Docker', 'Redis', 'Liderança de equipe', 'Planejamento de features',  'TypeScript', 'SQL', 'Docker', 'Git', 'Jest', 'Cypress']
     },
     {
