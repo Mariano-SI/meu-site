@@ -37,6 +37,12 @@ export const ExperienceCardStyled = styled.div`
         font-weight: bold;
         color: var(--main-texts-color);
     }
+    .company-role{
+        font-size: 1rem;
+        line-height: 1.1;
+        font-weight: bold;
+        color: var(--main-texts-color);
+    }
 
     .job-description{
         font-size: large.875rem;
@@ -59,6 +65,20 @@ export const ExperienceCardStyled = styled.div`
         background-color: var(--background-color);
         color: var(--secondary-texts-color);
         padding: 5px 10px;
+    }
+
+    .images-container{
+        display: flex;
+        gap: 26px;
+    }
+
+    .company-image{
+        width: 60px;
+        height: 60px;
+    }
+    .company-image img{
+        max-width: 100%;
+        object-fit: cover;
     }
 
     @media (max-width: 800px){

@@ -4,4 +4,5 @@ export interface ExperienceDescription{
     jobDescription: string;
     date: string;
     skills: string[];
+    companyPhotos: string[]
 }

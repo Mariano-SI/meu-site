@@ -8,12 +8,21 @@ interface IExperienceCardProps {
 
 function ExperienceCard({experience}: IExperienceCardProps) {
 
-  const {companyName, role, jobDescription, skills, date} = experience;  
+  const {companyName, role, jobDescription, skills, date, companyPhotos} = experience;  
   return (
     <ExperienceCardStyled>
         <span className='job-date'>{date}</span>
-        <h3 className='company-name'>{companyName}</h3>
-        <span className='company-name'>{role}</span>
+        <div>
+          <h3 className='company-name'>{companyName}</h3>
+          <span className='company-role'>{role}</span>
+        </div>
+        <div className='images-container'>
+            {companyPhotos.map((companyPhoto) => (
+              <div className='company-image'>
+                <img src={companyPhoto} alt="" />
+              </div>
+            ))}
+        </div>
         <p className='job-description'>{jobDescription}</p>
         <ul className='job-skills'>
             {skills.map((skill, index) => (
