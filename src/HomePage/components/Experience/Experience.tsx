@@ -3,10 +3,7 @@ import { ExperienceStyled } from './Experience.style'
 import ExperienceCard from '../ExperienceCard/ExperienceCard'
 import { ExperienceDescription } from '../../interfaces/ExperienceDescription'
 
-
-
 function Experience() {
-
   const experiences: ExperienceDescription[] = [
     {
         companyName: 'ilegra',
