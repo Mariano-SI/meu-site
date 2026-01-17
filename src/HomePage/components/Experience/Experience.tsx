@@ -6,10 +6,18 @@ import { ExperienceDescription } from '../../interfaces/ExperienceDescription'
 function Experience() {
   const experiences: ExperienceDescription[] = [
     {
+        companyName: 'Mercado Livre',
+        role: 'Software Engineer',
+        jobDescription: 'Atuo como Software Engineer no Mercado Livre, integrando o time Gen AI Data Platform',
+        date: '11/2025 - Atualmente',
+        skills: ['Python', 'Golang', 'Arquitetura de Software'],
+        companyPhotos:['https://media.licdn.com/dms/image/v2/D4D0BAQE4q-iBP4fZ0g/company-logo_200_200/B4DZUUipIKG8AI-/0/1739806380950/mercadolivre_com_logo?e=1770249600&v=beta&t=-g20LuCLaWixN9qpO0itV_nZryJSFi9nz-yHT9v94hU']
+    },
+    {
         companyName: 'ilegra',
         role: 'Desenvolvedor Pleno',
         jobDescription: 'Atuo em modelo outsourcing na PagoNxt, parte do grupo Santander, desenvolvendo IDPs (Internal Developer Portals) que aprimoram a organização do ecossistema de tecnologia e aumentam a eficiência dos profissionais de T.I das empresas do grupo. Meu trabalho envolve desenvolvimento backend e frontend, CI/CD e práticas de DevOps, contribuindo para automação, padronização e otimização dos fluxos de desenvolvimento. Entre as tecnologias que utilizo estão Node.js, TypeScript, Docker, Azure e Backstage.io. Além de desenvolver, participo ativamente do planejamento técnico, propondo soluções que reduzem tempo de entrega e melhoram a experiência dos times de engenharia.',
-        date: '01/2025 - Atual',
+        date: '01/2025 - 11/2025',
         skills: ['Node.js', 'Azure', 'Docker', 'BackstageIO'],
         companyPhotos:['https://media.licdn.com/dms/image/v2/C4D0BAQHxuL9Y3B6-Ug/company-logo_200_200/company-logo_200_200/0/1660926816605/ilegra_logo?e=1756944000&v=beta&t=vUJJaW_HcKlo0QSqzA6PAOS14V8ZD2LTBvm6Cn6Lh9s', 'https://media.licdn.com/dms/image/v2/D4D0BAQFgl6M-ZPv0Dw/company-logo_200_200/company-logo_200_200/0/1707392681527/pagonxt_logo?e=1756944000&v=beta&t=oCK7UZZViQ0gWFUmp7lH5AqLcyOosg80QFvzfkSTrSM']
     },
